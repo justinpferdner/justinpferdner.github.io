@@ -21,7 +21,7 @@
 title: Data Science for Smarties
 email: "justinpferdner@gmail.com"
 description: "Data science projects completed by Justin Pferdner" 
-baseurl: "/justinpferdner.github.io" # the name of the repository 
+baseurl: # "/justinpferdner.github.io" # the name of the repository 
 url: "https://justinpferdner.github.io" #  change this to "https://<your-github-username>.github.io"
 image: https://source.unsplash.com/random
 author: Justin Pferdner
