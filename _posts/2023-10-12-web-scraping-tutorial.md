@@ -26,7 +26,7 @@ The process of building our bot can be broken up into 3 simple steps:
 2. Select: Select a suitable web scraping tool or library, like Rvest, BeautifulSoup, Scrapy, or Selenium, depending on your project's complexity and your coding skills.
 3. Build: Finally, begin building your bot by using your chosen tool or library to develop a script to collect data from the websites. This script should mimic a user's interaction with the website, navigating through pages and collecting the desired information.
 
-I will leave it up to you to determine the exact purpose of your bot. For this tutorial, we are interested in scraping information from yahoo finance, a website . Our end goal is to analyze trending news topics.
+I will leave it up to you to determine the exact purpose of your bot. For this tutorial, we are interested in scraping information from yahoo finance, a website that is frequently updated with the latest stock market prices. Our end goal in retrieving this data is to analyze prices in ETF's. 
 
 For this tutorial we will be using requests and BeautifulSoup, packages built for Python.
 
@@ -46,7 +46,33 @@ On the other hand, BeautifulSoup is a Python library for parsing and navigating 
 
 Lastly, we will import the time package because it help us later on with automating our bot. 
 
-#### 2. Get URL and Parse
+#### 2. Get URL and Parse HTML
 
+The next step is to get our URL. We will then parse the HTML from the website, which is a fancy way of saying that we'll extract and process the content of the web page, enabling us to work with the data it contains.
 
+```{python}
+url = 'https://finance.yahoo.com/etfs'
+response = requests.get(url) 
+text = response.text 
+data = BeautifulSoup(text, 'html.parser') 
+```
 
+#### 3. Get Headings from the Table
+
+```{python}
+headings = data.find_all('tr')[0] 
+headings_list = []  # list to store all headings 
+
+for x in headings: 
+    headings_list.append(x.text) 
+ 
+headings_list = headings_list[:10] 
+```
+
+In our code, `headings = data.find_all('tr')[0]` means we want to find all the HTML <tr> (table row) elements within the parsed HTML content stored in the data variable. We select the first one ([0]), because the first row of the table contains the headings.
+
+We then use a for loop to append each heading to our `headings_list`. Since we only need the first 10 columns, we will use `headings_list[:10]`. 
+
+Printing out our columns, we get:
+
+!['print columns'](../assets/images/1.01_columns.png)
