@@ -26,7 +26,7 @@ The process of building our bot can be broken up into 3 simple steps:
 2. Select: Select a suitable web scraping tool or library, like Rvest, BeautifulSoup, Scrapy, or Selenium, depending on your project's complexity and your coding skills.
 3. Build: Finally, begin building your bot by using your chosen tool or library to develop a script to collect data from the websites. This script should mimic a user's interaction with the website, navigating through pages and collecting the desired information.
 
-I will leave it up to you to determine the exact purpose of your bot. For this tutorial, we are interested in scraping information from yahoo finance, a website that is frequently updated with the latest stock market prices. Our end goal in retrieving this data is to analyze prices in ETF's. 
+I will leave it up to you to determine the exact purpose of your bot. For this tutorial, we are interested in scraping information from yahoo finance, a website that is frequently updated with the latest stock market prices. We will be looking specifically at Exchange-Traded Fund, or ETF prices. 
 
 For this tutorial we will be using requests and BeautifulSoup, packages built for Python.
 
@@ -143,7 +143,7 @@ Finally, the script pauses execution for 600 seconds (equivalent to 10 minutes) 
 
 #### 6. Hosting Methods
 
-If necessary, there are ways to implement the bot without the need for human intervention. In this tutorial we won't get into hosting our bot, but it is another step to take in making you scraping more efficient. 
+If necessary, there are ways to implement the bot without the need for human intervention. In this tutorial we won't get into hosting our bot, but it is another step to take in making your scraping more efficient. 
 
 ## Web Scraping Ethics
 
