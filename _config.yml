@@ -23,7 +23,7 @@ email: "jp2255@byu.edu"
 description: "Projects, posts, and topics to make Data Science simpler" 
 baseurl: # "/justinpferdner.github.io" # the name of the repository 
 url: "https://justinpferdner.github.io" #  change this to "https://<your-github-username>.github.io"
-image: "background.png"
+image: "file:///Users/justinpferdner/Documents/fall_semester_2023/STAT_386/background.png"
 author: # Justin Pferdner
 copyright: JCP # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 'The default image for the site header is a random image from 
