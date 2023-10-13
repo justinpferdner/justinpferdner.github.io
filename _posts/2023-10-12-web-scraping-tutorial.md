@@ -69,10 +69,82 @@ for x in headings:
 headings_list = headings_list[:10] 
 ```
 
-In our code, `headings = data.find_all('tr')[0]` means we want to find all the HTML <tr> (table row) elements within the parsed HTML content stored in the data variable. We select the first one ([0]), because the first row of the table contains the headings.
+In our code, `headings = data.find_all('tr')[0]` means we want to find all the HTML `<tr>` (table row) elements within the parsed HTML content stored in the data variable. We select the first one (`[0]`), because the first row of the table contains the headings.
 
 We then use a for loop to append each heading to our `headings_list`. Since we only need the first 10 columns, we will use `headings_list[:10]`. 
 
 Printing out our columns, we get:
 
 !['print columns'](../assets/images/1.01_columns.png)
+
+#### 4. Fill Columns
+
+Now we want to get the first 5 rows of our data:
+
+```{python} 
+for x in range(1, 6): 
+    table = data.find_all('tr')[x] 
+    c = table.find_all('td') 
+      
+    for x in c: 
+        print(x.text, end=' ') 
+    print('') 
+```
+
+Here is our output after printing out the first 5 rows:
+
+!['first five rows'](../assets/images/1.02_first_five_rows.png)
+
+#### 5. Full Implementation
+
+Now that we have our setup in place, the last thing to do is place it in a loop. We use the time package in Python to help us read the new data in once every 10 minutes. Here is the full implementation:
+
+```{Python}
+import requests 
+from bs4 import BeautifulSoup 
+from datetime import datetime 
+import time 
+  
+while(True): 
+    now = datetime.now() 
+
+    current_time = now.strftime("%H:%M:%S") 
+    print(f'At time : {current_time} IST') 
+  
+    response = requests.get('https://finance.yahoo.com/etfs') 
+    text = response.text 
+    html_data = BeautifulSoup(text, 'html.parser') 
+    headings = html_data.find_all('tr')[0] 
+    headings_list = [] 
+    for x in headings: 
+        headings_list.append(x.text) 
+    headings_list = headings_list[:10] 
+  
+    data = [] 
+  
+    for x in range(1, 6): 
+        row = html_data.find_all('tr')[x] 
+        column_value = row.find_all('td') 
+        dict = {} 
+          
+        for i in range(10): 
+            dict[headings_list[i]] = column_value[i].text 
+        data.append(dict) 
+          
+    for coin in data: 
+        print(coin) 
+        print('') 
+    time.sleep(600) 
+```
+
+The code starts with an infinite while loop, which means it will run indefinitely unless you manually stop it. This loop ensures that the script continues to execute repeatedly. The timestamp from `current_time = now.strftime("%H:%M:%S") `is printed to the console to indicate when the data is being fetched.
+
+Finally, the script pauses execution for 600 seconds (equivalent to 10 minutes) using `time.sleep(600)`. This delay ensures that the code waits for the next iteration. After the sleep period, the loop starts over and fetches and displays the data again.
+
+#### 6. Hosting Methods
+
+If necessary, there are ways to implement the bot without the need for human intervention. In this tutorial we won't get into hosting our bot, but it is another step to take in making you scraping more efficient. 
+
+## Web Scraping Ethics
+
+
