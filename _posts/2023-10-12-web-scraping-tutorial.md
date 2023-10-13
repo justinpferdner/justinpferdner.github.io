@@ -3,7 +3,7 @@ layout: post
 title:  "Unlocking the Power of Webscraping: Building a Web Scraping Bot"
 author: Justin Pferdner
 description: Dive into the world of web scraping using Python and learn how to extract valuable data from websites.
-image: /assets/images/blog-image.jpg
+image: /assets/images/web_scraping_background.png
 ---
 
 Web scraping is a powerful tool for data scientists, offering the ability to gather valuable information from the vast expanse of the internet. In this blog post, I want to explore the art of web scraping, introduce the process of building a web scraping bot, and discuss web scraping ethics. While I won't delve into complex technical details, having a comprehensive overview of the methods behind scraping the web are important for data scientists looking to harness this technology.
