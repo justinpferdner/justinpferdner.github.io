@@ -161,4 +161,4 @@ If you plan to use scraped data in a public setting, provide clear attribution t
 
 ## Happy Scraping
 
-That's it! Thanks for reading, and feel free to reach out with any questions. 
+That's it! Try this tutorial out yourself and test it on websites of your choice. Thanks for reading, and feel free to reach out with any questions. 
