@@ -75,7 +75,7 @@ We then use a for loop to append each heading to our `headings_list`. Since we o
 
 Printing out our columns, we get:
 
-!['print columns'](../assets/images/1.01_columns.png)
+<img src="{{site.url}}/{{site.baseurl}}../assets/images/1.01_columns.png" alt="columns"/>
 
 #### 4. Fill Columns
 
