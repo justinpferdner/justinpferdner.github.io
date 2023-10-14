@@ -93,7 +93,7 @@ for x in range(1, 6):
 
 Here is our output after printing out the first 5 rows:
 
-!['first five rows'](../assets/images/1.02_first_five_rows.png)
+<img src="{{site.url}}/{{site.baseurl}}../assets/images/1.02_first_five_rows.png" alt="columns"/>
 
 #### 5. Full Implementation
 
