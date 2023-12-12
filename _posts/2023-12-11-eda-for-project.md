@@ -3,7 +3,7 @@ layout: post
 title:  "Exploratory Data Analysis on Homes near Salt Lake and Utah County"
 author: Justin Pferdner
 description: My method and processes for analyzing and exploring data on 1600+ homes near Salt Lake and Utah county 
-image: /assets/images/web_scraping_background.png
+image: /assets/images/eda_background.png
 ---
 
 ## Introduction

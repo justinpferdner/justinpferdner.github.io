@@ -3,18 +3,18 @@ layout: post
 title:  "Retrieving Data for Home Prices in Salt Lake and Utah County"
 author: Justin Pferdner
 description: My method and processes for retrieving data on 1600+ homes in Salt Lake and Utah county 
-image: /assets/images/web_scraping_background.png
+image: /assets/images/data_cleaning_background.png
 ---
 
 ## Introduction
-Home prices have sky-rocketed within the past 5 years. Even through rises in interest rates, homes have continued to sell and prices continue to rise. Many in the real estate market were anticpating the "bubble" to pop and prices to drop rapidly, but this has not been the case since the crash in 2009. My aim with this data set is to answer the question of, "Are home prices in Salt Lake County different from home prices in Utah County?"
+Home prices have sky-rocketed within the past 5 years. Even through raises in interest rates, homes have continued to sell and prices continue to rise. Many in the real estate market were anticpating the "bubble" to pop and prices to drop rapidly, but this has not been the case since the crash in 2009. My aim with this data set is to answer the question of, "What drives the prices of homes near Salt Lake and Utah County?"
 
-I retrieved data for 1624 homes for sale in both Utah County and Salt Lake County. The data for these homes was scraped from https://homes.ksl.com/. 
+I retrieved data for 1624 homes for sale near Utah County and Salt Lake County. The data for these homes was scraped from https://homes.ksl.com/. 
 
 ## Method for Obtaining Homes Data
 
 ### Step 1: Get Website Link
-KSL's website is open for web-scraping with some minor rules and regulations. I navigated to the homes section within KSL, and filtered my homes search by zooming in on the map to see only Utah and Salt Lake Counties. In this way I could see all the homes for sale on these areas on the left-hand side of the page. I copied this link to scrape using the selenium package in Python. 
+KSL's website is open for web-scraping with some minor rules and regulations. I navigated to the homes section within KSL, and filtered my homes search by zooming in on the map to see mostly only Utah and Salt Lake Counties. In this way I could see all the homes for sale on these areas on the left-hand side of the page. I copied this link to scrape using the selenium package in Python. 
 
 ### Step 2: Set Up Selenium
 After I had the link with the correct homes, I decided the best way to scrape the website would be using the Selenium package in Python. Diving into the HTML code on the website, I saw that each home and all of its information was located in the class name 'Listings_GridItemWrap__VnOPm'. Using the 'find_elements' command in selenium I was able to obtain every home and all of it's information. 
