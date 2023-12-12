@@ -51,3 +51,9 @@ Often the number of bedrooms in a house makes the house more expensive. I decide
 ![heatmap](/assets/images/eda/corr_heatmap.png)
 
 Lastly, I used a heatmap to see the correlation between all of the quantitative variables in the dataset. This inlcuded number of bedrooms, number of bathrooms, price, and square feet. The two variables that are most closely correlated are price and square feet at 0.74. Bedrooms and bathrooms have a somewhat strong correlation as well of 0.68.
+
+### Summary
+The most intriguing findings from my data were those that involved differences between cities and counties. Seeing price per square foot was also an informative statistic to look at because it shows the areas where you can get the best bang for your buck when buying a house. It was interesting to see how some of the most expensive areas compared to the cheaper areas.
+
+#### Link to Data and Code
+https://github.com/justinpferdner/semester_project
