@@ -14,6 +14,8 @@ Here are some of the most informative visualizations I made for understanding th
 
 ### Distribution of Home Prices
 
+<img src="{{site.url}}/{{site.baseurl}}../assets/eda/dist_of_home_prices.png" alt="columns"/>
+
 ![dist of home prices](../assets/images/eda/dist_of_home_prices.png)
 
 ![boxplot of price by county](../assets/images/eda/home_price_by_county.png)
