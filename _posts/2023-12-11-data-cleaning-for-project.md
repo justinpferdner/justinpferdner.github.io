@@ -43,3 +43,6 @@ The geocoding API I used had rate limiting restrictions for free users to 1 seco
 I only sought out data that was publicly available. I did not attempt to access any restricted areas, private databases, or any other information that was not intentionally made accessible through KSL's website.
 
 In conclusion, the data I have collected via selenium look accurate and I have minimal null values meaning the dataset is fairly complete. The process was not overly complicated and I made sure to follow ethical guidlines for scraping data from the web.
+
+#### Link to Data and Code
+https://github.com/justinpferdner/semester_project
