@@ -14,26 +14,26 @@ Here are some of the most informative visualizations I made for understanding th
 
 ### Distribution of Home Prices
 
-![dist of home prices](/assets/images/eda/dist_of_home_prices.png)
+![dist of home prices](../assets/images/eda/dist_of_home_prices.png)
 
-![boxplot of price by county](/assets/images/eda/home_price_by_county.png)
+![boxplot of price by county](../assets/images/eda/home_price_by_county.png)
 
 ### Scatterplot Price by Square Feet
 
-![price by sqft scatter](/assets/images/eda/price_by_sqft_by_county.png)
+![price by sqft scatter](../assets/images/eda/price_by_sqft_by_county.png)
 
 ### Median Home Price by City
 
-![median home price](/assets/images/eda/median_home_price.png)
+![median home price](../assets/images/eda/median_home_price.png)
 
 ### Average Price per Square Foot by City
 
-![avg price/sqft by city](/assets/images/eda/avg_price_per_sqft.png)
+![avg price/sqft by city](../assets/images/eda/avg_price_per_sqft.png)
 
 ### Home Price by Number of Bedrooms
 
-![price/bedrooms](/assets/images/eda/price_by_bedroom.png)
+![price/bedrooms](../assets/images/eda/price_by_bedroom.png)
 
 ### Correlation Heatmap of Quantitive Variables
 
-![heatmap](/assets/images/eda/corr_heatmap.png)
+![heatmap](../assets/images/eda/corr_heatmap.png)
