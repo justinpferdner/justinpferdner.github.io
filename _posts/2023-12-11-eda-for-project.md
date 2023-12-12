@@ -14,15 +14,13 @@ Here are some of the most informative visualizations I made for understanding th
 
 ### Distribution of Home Prices
 
-<img src="{{site.url}}/{{site.baseurl}}../assets/eda/dist_of_home_prices.png" alt="columns"/>
+![dist of home prices](/assets/images/eda/dist_of_home_prices.png)
 
-![dist of home prices](../assets/images/eda/dist_of_home_prices.png)
-
-![boxplot of price by county](../assets/images/eda/home_price_by_county.png)
+![boxplot of price by county](/assets/images/eda/home_price_by_county.png)
 
 ### Scatterplot Price by Square Feet
 
-![price by sqft scatter](../assets/images/eda/price_by_sqft_by_county.png)
+![price by sqft scatter](/assets/images/eda/price_by_sqft_by_county.png)
 
 ### Median Home Price by City
 
