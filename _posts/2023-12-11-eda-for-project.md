@@ -24,16 +24,16 @@ Here are some of the most informative visualizations I made for understanding th
 
 ### Median Home Price by City
 
-![median home price](../assets/images/eda/median_home_price.png)
+![median home price](/assets/images/eda/median_home_price.png)
 
 ### Average Price per Square Foot by City
 
-![avg price/sqft by city](../assets/images/eda/avg_price_per_sqft.png)
+![avg price/sqft by city](/assets/images/eda/avg_price_per_sqft.png)
 
 ### Home Price by Number of Bedrooms
 
-![price/bedrooms](../assets/images/eda/price_by_bedroom.png)
+![price/bedrooms](/assets/images/eda/price_by_bedroom.png)
 
 ### Correlation Heatmap of Quantitive Variables
 
-![heatmap](../assets/images/eda/corr_heatmap.png)
+![heatmap](/assets/images/eda/corr_heatmap.png)
