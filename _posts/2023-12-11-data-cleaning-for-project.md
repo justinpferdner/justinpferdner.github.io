@@ -9,7 +9,7 @@ image: /assets/images/data_cleaning_background.png
 ## Introduction
 Home prices have sky-rocketed within the past 5 years. Even through raises in interest rates, homes have continued to sell and prices continue to rise. Many in the real estate market were anticpating the "bubble" to pop and prices to drop rapidly, but this has not been the case since the crash in 2009. My aim with this data set is to answer the question of, "What drives the prices of homes near Salt Lake and Utah County?"
 
-I retrieved data for 1624 homes for sale near Utah County and Salt Lake County. The data for these homes was scraped from [KSL.com](https://homes.ksl.com/). 
+I retrieved data for 1624 homes for sale near Utah County and Salt Lake County. The data for these homes was scraped from [KSL](https://homes.ksl.com/search/sw/-112.20523259300246;40.07784421059566/ne/-111.20417292445408;40.80005403788218). 
 
 ## Method for Obtaining Homes Data
 

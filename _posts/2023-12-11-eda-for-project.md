@@ -20,7 +20,7 @@ The histogram of home prices is a solid visual in understanding the most typical
 
 ![boxplot of price by county](/assets/images/eda/home_price_by_county.png)
 
-This visual is informative in that it helps us clearly see the differences in home prices between counties. Summit County and Wasatch County have higher medians, whereas Salt Lake and Utah County have lower median home prices.
+This visual is informative in that it helps us clearly see the differences in home prices between counties. Summit County and Wasatch County have higher medians, whereas Salt Lake and Utah County have lower median home prices. This could be because Summit and Wasatch County have most of the ski towns in them, and those areas are more expensive. Also, living closer to the wasatch front gets more expensive. 
 
 ### Scatterplot Price by Square Feet
 
@@ -32,7 +32,7 @@ The next visual I wanted to look at was how price and square feet correlated. I 
 
 ![median home price](/assets/images/eda/median_home_price.png)
 
-To begin looking at differences between cities, I first looked at the median home price. This visualization was informative in seeing the distinction between the expensive areas, the moderately priced areas, and the cheaper areas in Utah. Cities like Sundance, Wanship, Hideout and Brighton are clearly the most expensive cities to live in. 
+To begin looking at differences between cities, I first looked at the median home price. This visualization was informative in seeing the distinction between the expensive areas, the moderately priced areas, and the cheaper areas in Utah. Cities like Sundance, Wanship, Hideout and Brighton are clearly the most expensive cities to live in. This could be because they are cities close to or on the mountains, where it is more expensive to buy land and build homes. 
 
 ### Average Price per Square Foot by City
 
