@@ -9,7 +9,7 @@ image: /assets/images/data_cleaning_background.png
 ## Introduction
 Home prices have sky-rocketed within the past 5 years. Even through raises in interest rates, homes have continued to sell and prices continue to rise. Many in the real estate market were anticpating the "bubble" to pop and prices to drop rapidly, but this has not been the case since the crash in 2009. My aim with this data set is to answer the question of, "What drives the prices of homes near Salt Lake and Utah County?"
 
-I retrieved data for 1624 homes for sale near Utah County and Salt Lake County. The data for these homes was scraped from https://homes.ksl.com/. 
+I retrieved data for 1624 homes for sale near Utah County and Salt Lake County. The data for these homes was scraped from [KSL.com](https://homes.ksl.com/). 
 
 ## Method for Obtaining Homes Data
 
@@ -44,5 +44,6 @@ I only sought out data that was publicly available. I did not attempt to access 
 
 In conclusion, the data I have collected via selenium look accurate and I have minimal null values meaning the dataset is fairly complete. The process was not overly complicated and I made sure to follow ethical guidlines for scraping data from the web.
 
-#### Link to Data and Code
-https://github.com/justinpferdner/semester_project
+#### Link to Data, Code, and Streamlit App
+[Data and Code](https://github.com/justinpferdner/semester_project)
+[Streamlit App](https://semesterproject-ulqytaqsqwudqzqxekd2mc.streamlit.app/)
