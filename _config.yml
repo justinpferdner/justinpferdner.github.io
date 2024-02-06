@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Simple Data
+title: Justin Pferdner's Portfolio
 email: "jp2255@byu.edu"
-description: "Projects, posts, and topics to make Data Science simpler" 
+description: "Projects, posts, and topics from Data Science Process (STAT 386)" 
 baseurl: # "/justinpferdner.github.io" # the name of the repository 
 url: "https://justinpferdner.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "/background.png"
-author: Justin Pferdner
+author: ""
 copyright: JCP # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 'The default image for the site header is a random image from 
         <a href="https://source.unsplash.com/random" target="_blank"> Unsplash</a>. 
